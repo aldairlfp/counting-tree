@@ -1,7 +1,8 @@
-| Art   | <a href="#UN">UN</a> | <a href="#E-D">E-D</a> | <a href="#DRA">DRA</a> | <a href="#CNN">CNN</a> | <a href="#ANN">ANN</a> | <a href="#VGGN">VGGN</a> | <a href="#IS">IS</a> | <a href="#SWT">SWT</a> |
-| :---- | :------------------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: | :----------------------: |  :----------------------: |  :----------------------: |
-| <a href="#chino">chino</a>  |          X           |           X            |           X            |           X            |           X            | X |  |  |
-| <a href="#lauren">lauren</a>  |                      |                       |                       |           X            |                       |  | X|  X|
+| Art   | <a href="#UN">UN</a> | <a href="#E-D">E-D</a> | <a href="#DRA">DRA</a> | <a href="#CNN">CNN</a> | <a href="#ANN">ANN</a> | <a href="#VGGN">VGGN</a> | <a href="#IS">IS</a> | <a href="#ST">ST</a> | <a href="#SWT">SWT</a> |
+| :---- | :------------------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: | :----------------------: |  :----------------------: |  :----------------------: | :----------------------: |
+| <a href="#chino">chino</a>  |          X           |           X            |           X            |           X            |           X            | X |  |  |  |
+| <a href="#lauren">lauren</a>  |                      |                       |                       |           X            |                       |  | X|  X|  |
+| <a href="#jordipi">jordipi</a>  |                      |                       |                       |           X            |                       |  | X|  | X |
 
 
 
@@ -23,7 +24,8 @@ Tags:
 * (<a id="VGGN">VGGN</a>) VGGNet network
 * (<a id="BLI">BLI</a>) Bilinear Interpolation
 * (<a id="IS">IS</a>) Image Segmentation
-* (<a id="SWT">SWT</a>) Swin Transformer
+* (<a id="ST">ST</a>) Swin Transformer
+* (<a id="SWT">SWT</a>) Sliding Window Technique
 
 
 ## Importante
@@ -55,3 +57,30 @@ Contents per teammate:
       * Swin Transformer
 
 
+* Jordan:
+  * <a href = "https://www.researchgate.net/profile/Ioannis-Daliakopoulos/publication/273216095_Tree_Crown_Detection_on_Multispectral_VHR_Satellite_Imagery/links/57286d0008aee491cb42f0f6/Tree-Crown-Detection-on-Multispectral-VHR-Satellite-Imagery.pdf" id = "jordipi"> Tree Crown Detection on Multispectral VHR Satellite Imagery</a> (Mucha matemática aplicada, nada de ML)
+      * IN Daliakopoulos, EG Grillakis…, 2009
+      * Red Band Thresholding
+      * Laplacian of the Gaussian (LOG) blob detection method
+      * Arbor Crown Enumerator (ACE)
+      * Normalized Difference Vegetation Index (NDVI)
+      * Calibration
+
+  * <a href = "https://www.mdpi.com/173204" id = "jordipi"> Deep Learning Based Oil Palm Tree Detection and Counting for High-Resolution Remote Sensing Images</a>
+      * W Li, H Fu, L Yu, A Cracknell, 2016
+      * Convolutional Neural Network (CNN)
+      * Deep Learning
+      * The Sliding window technique to predict
+      * Accuracy more 96%
+
+  * <a href = "https://arxiv.org/abs/1701.06462" id = "jordipi"> Using Convolutional Neural Networks to Count Palm Trees in Satellite Images</a>
+      * EK Cheang, TK Cheang, YH Tay, 2017
+      * Supervised Learning
+      * Convolutional Neural Network (CNN)
+      * Uniform Filter
+      * Accuracy 94-99%
+
+  * <a href = "https://www.mdpi.com/2072-4292/11/11/1309" id = "jordipi"> Individual Tree-Crown Detection in RGB Imagery Using Semi-Supervised Deep Learning Neural Networks</a>
+      * BG Weinstein, S Marconi, S Bohlman, A Zare, E White, 2019
+      * Combination of Unsupervised, Self-supervised and Supervised Learning with LIDAR and RGB Detection
+      * Accuracy 80% (bad)
