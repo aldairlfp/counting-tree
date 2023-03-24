@@ -47,15 +47,12 @@ Contents per teammate:
       * Blob Detection 
       * Edge Detection      
       * Image Binarization
-
   * <a href = "https://www.hindawi.com/journals/cin/2022/1549842/" id = "lauren"> A Large-Scale Dataset and Deep Learning Model for Detecting and Counting Olive Trees in Satellite Imagery</a>
       * Region convolutional neural network (R-CNN)
       * Swin Transformer (SwinTUnet) Encoder-Decoder
       * Image Segmentation
-
   * <a href = "https://openaccess.thecvf.com/content/ICCV2021/papers/Touvron_Going_Deeper_With_Image_Transformers_ICCV_2021_paper.pdf" id = "lauren"> Going deeper with Image Transformers</a>
       * Swin Transformer
-
 
 * Jordan:
   * <a href = "https://www.researchgate.net/profile/Ioannis-Daliakopoulos/publication/273216095_Tree_Crown_Detection_on_Multispectral_VHR_Satellite_Imagery/links/57286d0008aee491cb42f0f6/Tree-Crown-Detection-on-Multispectral-VHR-Satellite-Imagery.pdf" id = "jordipi"> Tree Crown Detection on Multispectral VHR Satellite Imagery</a> (Mucha matemática aplicada, nada de ML)
@@ -65,14 +62,12 @@ Contents per teammate:
       * Arbor Crown Enumerator (ACE)
       * Normalized Difference Vegetation Index (NDVI)
       * Calibration
-
   * <a href = "https://www.mdpi.com/173204" id = "jordipi"> Deep Learning Based Oil Palm Tree Detection and Counting for High-Resolution Remote Sensing Images</a>
       * W Li, H Fu, L Yu, A Cracknell, 2016
       * Convolutional Neural Network (CNN)
       * Deep Learning
       * The Sliding window technique to predict
       * Accuracy more 96%
-
   * <a href = "https://arxiv.org/abs/1701.06462" id = "jordipi"> Using Convolutional Neural Networks to Count Palm Trees in Satellite Images</a>
       * EK Cheang, TK Cheang, YH Tay, 2017
       * Supervised Learning
@@ -80,10 +75,6 @@ Contents per teammate:
       * Uniform Filter
       * Accuracy 94-99%
 
-  * <a href = "https://www.mdpi.com/2072-4292/11/11/1309" id = "jordipi"> Individual Tree-Crown Detection in RGB Imagery Using Semi-Supervised Deep Learning Neural Networks</a>
-      * BG Weinstein, S Marconi, S Bohlman, A Zare, E White, 2019
-      * Combination of Unsupervised, Self-supervised and Supervised Learning with LIDAR and RGB Detection
-      * Accuracy 80% (bad)
 * Krtucho:
   * <a href = "https://www.mdpi.com/2072-4292/14/3/476" id = "Krtucho"> Transformer for Tree Counting in Aerial Images </a>
       * Convolutional Neural Network (CNN)
