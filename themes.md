@@ -84,3 +84,15 @@ Contents per teammate:
       * BG Weinstein, S Marconi, S Bohlman, A Zare, E White, 2019
       * Combination of Unsupervised, Self-supervised and Supervised Learning with LIDAR and RGB Detection
       * Accuracy 80% (bad)
+* Krtucho:
+  * <a href = "https://www.mdpi.com/2072-4292/14/3/476" id = "Krtucho"> Transformer for Tree Counting in Aerial Images </a>
+      * Convolutional Neural Network (CNN)
+      * Density Transformer (DENT)
+      * Density Map Generator (DMG)
+   * <a href = "https://github.com/A2Amir/Counting-Trees-using-Satellite-Images" id = "Krtucho"> Counting-Trees-using-Satellite-Images </a>
+      * Semantic Segmentation
+      * U-net
+      * Convolutional Neural Network
+      * Binary Cross Entropy as the loss function.
+      * images (848 × 837 pixels and eight channel) and labeled masks ( has 848 × 837 pixels and five channel): Buildings, Roads and Tracks, Tress, Crops, Water
+      * Validation loss of 0.1388, validation accuracy of 0.9447, validation precision of 0.9757 and validation recall of 0.7551.
