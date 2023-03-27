@@ -1,7 +1,7 @@
 | Art   | <a href="#UN">UN</a> | <a href="#E-D">E-D</a> | <a href="#DRA">DRA</a> | <a href="#CNN">CNN</a> | <a href="#ANN">ANN</a> | <a href="#VGGN">VGGN</a> | <a href="#IS">IS</a> | <a href="#ST">ST</a> | <a href="#SWT">SWT</a> |
 | :---- | :------------------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: | :----------------------: |  :----------------------: |  :----------------------: | :----------------------: |
 | <a href="#chino">chino</a>  |          X           |           X            |           X            |           X            |           X            | X |  |  |  |
-| <a href="#lauren">lauren</a>  |                      |                       |                       |           X            |                       |  | X|  X|  |
+| <a href="#olive_satellite">olives</a>  |                      |                       |                       |           X            |                       |  | X|  X|  |
 | <a href="#jordipi">jordipi</a>  |                      |                       |                       |           X            |                       |  | X|  | X |
 
 
@@ -41,17 +41,17 @@ Contents per teammate:
       * Convolutional Neural Network
 
 * Lauren:
-  * <a href = "https://ieeexplore.ieee.org/abstract/document/9104983/" id = "lauren"> An automated method for detection and enumeration of olive trees through remote sensing</a> (Mucho procesamiento de imágenes, nada de ML)
+  * <a href = "https://ieeexplore.ieee.org/abstract/document/9104983/" id = "image_processing"> An automated method for detection and enumeration of olive trees through remote sensing</a> (Mucho procesamiento de imágenes, nada de ML)
       * Image Segmentation
       * Morphological Operations
       * Blob Detection 
       * Edge Detection      
       * Image Binarization
-  * <a href = "https://www.hindawi.com/journals/cin/2022/1549842/" id = "lauren"> A Large-Scale Dataset and Deep Learning Model for Detecting and Counting Olive Trees in Satellite Imagery</a>
+  * <a href = "https://www.hindawi.com/journals/cin/2022/1549842/" id = "olive_satellite"> A Large-Scale Dataset and Deep Learning Model for Detecting and Counting Olive Trees in Satellite Imagery</a>
       * Region convolutional neural network (R-CNN)
       * Swin Transformer (SwinTUnet) Encoder-Decoder
       * Image Segmentation
-  * <a href = "https://openaccess.thecvf.com/content/ICCV2021/papers/Touvron_Going_Deeper_With_Image_Transformers_ICCV_2021_paper.pdf" id = "lauren"> Going deeper with Image Transformers</a>
+  * <a href = "https://openaccess.thecvf.com/content/ICCV2021/papers/Touvron_Going_Deeper_With_Image_Transformers_ICCV_2021_paper.pdf" id = "transform"> Going deeper with Image Transformers</a>
       * Swin Transformer
 
 * Jordan:
