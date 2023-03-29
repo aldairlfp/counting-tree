@@ -51,6 +51,15 @@ Contents per teammate:
       * Region convolutional neural network (R-CNN)
       * Swin Transformer (SwinTUnet) Encoder-Decoder
       * Image Segmentation
+
+    En este artículo se utiliza para entrenamiento y validación un dataset de 230 imágenes de una zona sseleccionada de Arabia Saudita. El modelo propuesto muestra la arquitectura SwinTUnet  que incluye:
+    
+    * El bloque Swin Transformer que es la unidad fundamental de SwinTUnet, es la columna vertebral tanto del codificador como del decodificador. Maneja el aprendizaje de la representación de características. 
+    * El codificador (encoder) se utiliza para realizar una serie de embeddings a partir de las entradas.  Durante el codificador, se aplican dos bloques Swin Transformer secuenciales en los tokens de entrada con una resolución de H/4 × W/4 y 48 dimensiones para producir aprendizaje de representación.
+    * El decodificador (decoder) basado en transformador simétrico, inspirado en U-net.  A diferencia del codificador, la capa de expansión de parches se usa en el decodificador en lugar de la capa de fusión de parches para muestrear las características construidas. 
+
+    En la implementación se utiliza la biblioteca PyTorch. Este modelo se validó sobre imágenes RGB con una precisión general del 98,3%, lo que supera el trabajo relacionado, enmarcado en contar olivos en zonas de cultivos.
+
   * <a href = "https://openaccess.thecvf.com/content/ICCV2021/papers/Touvron_Going_Deeper_With_Image_Transformers_ICCV_2021_paper.pdf" id = "transform"> Going deeper with Image Transformers</a>
       * Swin Transformer
 
