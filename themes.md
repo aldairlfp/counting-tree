@@ -1,17 +1,9 @@
-| Art   | <a href="#UN">UN</a> | <a href="#E-D">E-D</a> | <a href="#DRA">DRA</a> | <a href="#CNN">CNN</a> | <a href="#ANN">ANN</a> | <a href="#VGGN">VGGN</a> | <a href="#IS">IS</a> | <a href="#ST">ST</a> | <a href="#SWT">SWT</a> |
-| :---- | :------------------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: | :----------------------: |  :----------------------: |  :----------------------: | :----------------------: |
-| <a href="#chino">chino</a>  |          X           |           X            |           X            |           X            |           X            | X |  |  |  |
-| <a href="#olive_satellite">olives</a>  |                      |                       |                       |           X            |                       |  | X|  X|  |
-| <a href="#jordipi">jordipi</a>  |                      |                       |                       |           X            |                       |  | X|  | X |
-
-
-
-
-
-
-
-
-
+| Art   | <a href="#UN">UN</a> | <a href="#E-D">E-D</a> | <a href="#DRA">DRA</a> | <a href="#CNN">CNN</a> | <a href="#ANN">ANN</a> | <a href="#VGGN">VGGN</a> | <a href="#IS">IS</a> | <a href="#ST">ST</a> | <a href="#SWT">SWT</a> | <a href="#SVM">SVM</a> | <a href="#RF">RF</a> | <a href="#NN">NN</a> | <a href="#NBC">NBC</a>
+| :---- | :------------------: | :--------------------: | :--------------------: | :--------------------: | :--------------------: | :----------------------: |  :----------------------: |  :----------------------: | :----------------------: |:----------------------: |:----------------------: | :----------------------: | :----------------------: |
+| <a href="#chino">chino</a>  |          X           |           X            |           X            |           X            |           X            | X |  |  |  |||
+| <a href="#olive_satellite">olives</a>  |                      |                       |                       |           X            |                       |  | X|  X|  ||
+| <a href="#jordipi">jordipi</a>  |                      |                       |                       |           X            |                       |  | X|  | X |||
+|<a href="#Kranjcic2019">Kranjcic2019</a> | | | | | | | | | | X | X | X | X
 
 
 
@@ -26,6 +18,10 @@ Tags:
 * (<a id="IS">IS</a>) Image Segmentation
 * (<a id="ST">ST</a>) Swin Transformer
 * (<a id="SWT">SWT</a>) Sliding Window Technique
+* (<a id="SVM">SVM</a>) Support Vector Machine
+* (<a id="RF">RF</a>) Random Forest
+* (<a id="NN">NN</a>) Neural Network
+* (<a id="NBC">NBC</a>) Naive Bayes Classifier
 
 
 ## Importante
@@ -89,4 +85,14 @@ Contents per teammate:
       * Validation loss of 0.1388, validation accuracy of 0.9447, validation precision of 0.9757 and validation recall of 0.7551.
 
 * Paula:
-    
+    * <a href = "https://www.mdpi.com/558116" id = Kranjcic2019> Machine Learning Methods for Classification of the Green Infrastructure in City Areas </a>        
+        * Analizan cuatro métodos de machine learning: support vector machine, random forest, artificial neural network y naive Bayes classifier 
+        * Support vector machines y random forest superan a los otros métodos 
+        * En cuanto a precisión de clasificación y tiempo de ejecución SVM es el mejor. 
+        * Proponen una combinación de parámetros y un método para "mapear" las áreas verdes urbanas (green urban infrastructure)
+        * Prueban la precisión con una matriz de error   
+        * Las imágenes las descargaron de la página de Copernicus Open Access Hub
+        * Hacen corrección atmosférica Dark Object Substraction 1 (DOS1) 
+        * Seleccionar signature samples y definen parámetros para los métodos de machine learning 
+        * RGB e IR (infrarojos) para seleccionar "signature samples"
+        * Pre-procesamiento de imágenes con QGIS y SAGA GIS
