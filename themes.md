@@ -89,20 +89,4 @@ Contents per teammate:
       * Validation loss of 0.1388, validation accuracy of 0.9447, validation precision of 0.9757 and validation recall of 0.7551.
 
 * Paula:
-    *  <a href = "https://www.tandfonline.com/doi/abs/10.1080/01431161.2019.1569282" id = Mubin2019 > Young and mature oil palm tree detection and counting using convolutional neural network deep learning method </a>
-        * Mubin et al., 2019
-        * Oil palm tree
-        * CNN
-        * Deep learning
     
-    * <a href = "https://www.mdpi.com/1198426" id= "Ammar2021">  Deep-Learning-Based Automated Palm Tree Counting and Geolocation in  Large Farms from Aerial Geotagged Images </a>
-        * Ammar et al., 2021
-        * CNN
-        * Faster R-CNN 
-        * You Only Look Once (YOLO)
-
-    * <a href = "https://www.sciencedirect.com/science/article/pii/S030324342100369X" id = "Sun2022"> Cunting trees in a subtropical mega city using the instance segmentation method </a>
-        * Sun et al., 2022
-        * end to end tree counting deep learning framework in the regional-scale tree detection by delineating each tree crown
-        * Cascade mask R-CNN
-        * Individual tree detection
