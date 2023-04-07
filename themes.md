@@ -1,9 +1,14 @@
-| Art                                      | <a href="#UN">UN</a> | <a href="#E-D">E-D</a> | <a href="#DRA">DRA</a> | <a href="#CNN">CNN</a> | <a href="#ANN">ANN</a> | <a href="#VGGN">VGGN</a> | <a href="#IS">IS</a> | <a href="#ST">ST</a> | <a href="#SWT">SWT</a> | <a href="#SVM">SVM</a> | <a href="#RF">RF</a> | <a href="#NN">NN</a> | <a href="#NBC">NBC</a> |
-|:---------------------------------------- |:--------------------:|:----------------------:|:----------------------:|:----------------------:|:----------------------:|:------------------------:|:--------------------:|:--------------------:|:----------------------:|:----------------------:|:--------------------:|:--------------------:|:----------------------:|
-| <a href="#chino">chino</a>               | X                    | X                      | X                      | X                      | X                      | X                        |                      |                      |                        |                        |                      |                      |                        |
-| <a href="#olive_satellite">olives</a>    |                      |                        |                        | X                      |                        |                          | X                    | X                    |                        |                        |                      |                      |                        |
-| <a href="#jordipi">jordipi</a>           |                      |                        |                        | X                      |                        |                          | X                    |                      | X                      |                        |                      |                      |                        |
-| <a href="#Kranjcic2019">Kranjcic2019</a> |                      |                        |                        |                        |                        |                          |                      |                      |                        | X                      | X                    | X                    | X                      |
+| Acc   | Art                                                      | <a href="#UN">UN</a> | <a href="#E-D">E-D</a> | <a href = "#DENT">DENT</a> | <a href = "#DMG">DMG</a> | <a href="#DRA">DRA</a> | <a href = "#RED">RED</a> | <a href = "#NVDI">NVDI</a> | <a href="#CNN">CNN</a> | <a href = "#R-CNN">R-CNN</a> | <a href="#ANN">ANN</a> | <a href="#VGGN">VGGN</a> | <a href="#IS">IS</a> | <a = href = "#SS">SS</a> | <a href="#ST">ST</a> | <a href="#MO">MO</a> | <a href ="#IB">IB</a> | <a href="#BD">BD</a> | <a href="#SWT">SWT</a> | <a href="#SVM">SVM</a> | <a href="#RF">RF</a> | <a href="#NN">NN</a> | <a href="#NBC">NBC</a> |
+| ----- |:-------------------------------------------------------- |:--------------------:|:----------------------:|:--------------------------:|:------------------------:|:----------------------:|:------------------------:|:--------------------------:|:----------------------:|:----------------------------:|:----------------------:|:------------------------:|:--------------------:|:------------------------:|:--------------------:|:--------------------:|:---------------------:|:--------------------:|:----------------------:|:----------------------:|:--------------------:|:--------------------:|:----------------------:|
+|       | <a href="#chino">chino (forest)</a>                      | X                    | X                      |                            |                          | X                      |                          |                            | X                      |                              | X                      | X                        |                      |                          |                      |                      |                       |                      |                        |                        |                      |                      |                        |
+|       | <a href="#olive_satellite">olives(forest)</a>            |                      |                        |                            |                          |                        |                          |                            | X                      | X                            |                        |                          | X                    |                          | X                    |                      |                       |                      |                        |                        |                      |                      |                        |
+|       | <a href="#image_processing">image_processing(forest)</a> |                      |                        |                            |                          |                        |                          |                            |                        |                              |                        |                          | X                    |                          |                      | X                    | X                     | X                    |                        |                        |                      |                      |                        |
+|       | <a href="#VHR">VHR(forest)</a>                           |                      |                        |                            |                          |                        | X                        | X                          |                        |                              |                        |                          |                      |                          |                      |                      |                       | X                    |                        |                        |                      |                      |                        |
+| 96    | <a href = "#OilPalm">OilPalm(forest)</a>                 |                      |                        |                            |                          |                        |                          |                            | X                      |                              |                        |                          |                      |                          |                      |                      |                       |                      | X                      |                        |                      |                      |                        |
+| 94-99 | <a href = "#Palm">Palm(forest)</a>                       |                      |                        |                            |                          |                        |                          |                            | X                      |                              |                        |                          |                      |                          |                      |                      |                       |                      |                        |                        |                      |                      |                        |
+|       | <a href = "#Aerial">Aerial(forest)</a>                   |                      |                        | X                          | X                        | X                      |                          |                            |                        |                              |                        |                          |                      |                          |                      |                      |                       |                      |                        |                        |                      |                      |                        |
+| 94    | <a href = "#Semantic">Semantic(forest)</a>               | X                    |                        |                            |                          |                        |                          |                            | X                      |                              |                        |                          | X                    | X                        |                      |                      |                       |                      |                        |                        |                      |                      |                        |
+|       | <a href="#Kranjcic2019">Kranjcic2019</a>                 |                      |                        |                            |                          |                        |                          |                            |                        |                              |                        |                          |                      |                          |                      |                      |                       |                      |                        | X                      | X                    | X                    | X                      |
 
 Tags:
 
@@ -11,6 +16,7 @@ Tags:
 * (<a id="E-D">E-D</a>) Encoder-Decoder network
 * (<a id="DRA">DRA</a>) Density Regresion Approach 
 * (<a id="CNN">CNN</a>) Convolutional Neural Network
+* (<a id = "R-CNN"> R-CNN</a>) Region Convolutional Neural Network
 * (<a id="ANN">ANN</a>) AlexNet network
 * (<a id="VGGN">VGGN</a>) VGGNet network
 * (<a id="BLI">BLI</a>) Bilinear Interpolation
@@ -21,6 +27,14 @@ Tags:
 * (<a id="RF">RF</a>) Random Forest
 * (<a id="NN">NN</a>) Neural Network
 * (<a id="NBC">NBC</a>) Naive Bayes Classifier
+* (<a id="MO">MO</a>) Morfológical Operations
+* (<a id ="BD">BD</a>) Blob detection
+* (<a id = "IB">IB</a>) Image Binarization
+* (<a id = "RED">RED</a>) Red Band Thresholding
+* (<a id = "NVDI">NVDI</a>) Normalized Difference Vegetation Index
+* (<a id = "DENT">DENT</a>) Density Transformer
+* (<a href = "DMG">DMG</a>) Density Map Generator
+* (<a id = "SS">SS</a>) Semantic Segmentation
 
 ## Importante
 
@@ -39,7 +53,7 @@ Contents per teammate:
 
 * Lauren:
   
-  * <a href = "https://ieeexplore.ieee.org/abstract/document/9104983/" id = "image_processing"> An automated method for detection and enumeration of olive trees through remote sensing</a> (Mucho procesamiento de imágenes, nada de ML)
+  * <a href = "https://ieeexplore.ieee.org/abstract/document/9104983/" id = "image_processing">An automated method for detection and enumeration of olive trees through remote sensing</a>(Mucho procesamiento de imágenes, nada de ML)
     
     * Image Segmentation
     * Morphological Operations
@@ -67,20 +81,20 @@ Contents per teammate:
 
 * Jordan:
   
-  * <a href = "https://www.researchgate.net/profile/Ioannis-Daliakopoulos/publication/273216095_Tree_Crown_Detection_on_Multispectral_VHR_Satellite_Imagery/links/57286d0008aee491cb42f0f6/Tree-Crown-Detection-on-Multispectral-VHR-Satellite-Imagery.pdf" id = "jordipi"> Tree Crown Detection on Multispectral VHR Satellite Imagery</a> (Mucha matemática aplicada, nada de ML)
+  * <a href = "https://www.researchgate.net/profile/Ioannis-Daliakopoulos/publication/273216095_Tree_Crown_Detection_on_Multispectral_VHR_Satellite_Imagery/links/57286d0008aee491cb42f0f6/Tree-Crown-Detection-on-Multispectral-VHR-Satellite-Imagery.pdf" id = "VHR"> Tree Crown Detection on Multispectral VHR Satellite Imagery</a> (Mucha matemática aplicada, nada de ML)
     * IN Daliakopoulos, EG Grillakis…, 2009
     * Red Band Thresholding
     * Laplacian of the Gaussian (LOG) blob detection method
     * Arbor Crown Enumerator (ACE)
     * Normalized Difference Vegetation Index (NDVI)
     * Calibration
-  * <a href = "https://www.mdpi.com/173204" id = "jordipi"> Deep Learning Based Oil Palm Tree Detection and Counting for High-Resolution Remote Sensing Images</a>
+  * <a href = "https://www.mdpi.com/173204" id = "OilPalm"> Deep Learning Based Oil Palm Tree Detection and Counting for High-Resolution Remote Sensing Images</a>
     * W Li, H Fu, L Yu, A Cracknell, 2016
     * Convolutional Neural Network (CNN)
     * Deep Learning
     * The Sliding window technique to predict
     * Accuracy more 96%
-  * <a href = "https://arxiv.org/abs/1701.06462" id = "jordipi"> Using Convolutional Neural Networks to Count Palm Trees in Satellite Images</a>
+  * <a href = "https://arxiv.org/abs/1701.06462" id = "Palm"> Using Convolutional Neural Networks to Count Palm Trees in Satellite Images</a>
     * EK Cheang, TK Cheang, YH Tay, 2017
     * Supervised Learning
     * Convolutional Neural Network (CNN)
@@ -89,17 +103,23 @@ Contents per teammate:
 
 * Krtucho:
   
-  * <a href = "https://www.mdpi.com/2072-4292/14/3/476" id = "Krtucho"> Transformer for Tree Counting in Aerial Images </a>
+  * <a href = "https://www.mdpi.com/2072-4292/14/3/476" id = "Aerial"> Transformer for Tree Counting in Aerial Images </a>
     * Convolutional Neural Network (CNN)
     * Density Transformer (DENT)
-    * Density Map Generator (DMG)
-      * <a href = "https://github.com/A2Amir/Counting-Trees-using-Satellite-Images" id = "Krtucho"> Counting-Trees-using-Satellite-Images </a>
-    * Semantic Segmentation
-    * U-net
-    * Convolutional Neural Network
-    * Binary Cross Entropy as the loss function.
-    * images (848 × 837 pixels and eight channel) and labeled masks ( has 848 × 837 pixels and five channel): Buildings, Roads and Tracks, Tress, Crops, Water
-    * Validation loss of 0.1388, validation accuracy of 0.9447, validation precision of 0.9757 and validation recall of 0.7551.
+      
+      Density Map Generator (DMG)
+  * <a href = "https://github.com/A2Amir/Counting-Trees-using-Satellite-Images" id = "Semantic"> Counting-Trees-using-Satellite-Images </a>
+    - Semantic Segmentation
+    
+    - U-net
+    
+    - Convolutional Neural Network
+    
+    - Binary Cross Entropy as the loss function.
+    
+    - images (848 × 837 pixels and eight channel) and labeled masks ( has 848 × 837 pixels and five channel): Buildings, Roads and Tracks, Tress, Crops, Water
+    
+    - Validation loss of 0.1388, validation accuracy of 0.9447, validation precision of 0.9757 and validation recall of 0.7551.
 
 * Paula:
   
