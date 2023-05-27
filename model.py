@@ -38,14 +38,14 @@ def unet_model(image_size):
     crop2 = layers.Cropping2D(40)(down2)                                             # (104, 104, 128)
     up2 = layers.UpSampling2D(size=(2, 2))(up3)                                      # (104, 104, 128)
     up2 = layers.concatenate([crop2, up2])                                           # (104, 104, 256)
-    up2 = layers.Conv2D(128, (3, 3), activation='relu')(up2)                         # (102, 102, 128)
-    up2 = layers.Conv2D(128, (3, 3), activation='relu')(up2)                         # (100, 100, 128)
+    up2 = layers.Conv2D(128, (3, 3), activation='relu', padding ='same')(up2)        # (102, 102, 128)
+    up2 = layers.Conv2D(128, (3, 3), activation='relu', padding ='same')(up2)        # (100, 100, 128)
 
     crop1 = layers.Cropping2D(88)(down1)                                             # (200, 200, 64)
     up1 = layers.UpSampling2D(size=(2, 2))(up2)                                      # (200, 200, 64)
     up1 = layers.concatenate([crop1, up1])                                           # (200, 200, 128)
-    up1 = layers.Conv2D(64, (3, 3), activation='relu')(up1)                          # (198, 198, 64)
-    up1 = layers.Conv2D(64, (3, 3), activation='relu')(up1)                          # (196, 196, 64)
+    up1 = layers.Conv2D(64, (3, 3), activation='relu', padding ='same')(up1)         # (198, 198, 64)
+    up1 = layers.Conv2D(64, (3, 3), activation='relu', padding ='same')(up1)         # (196, 196, 64)
 
     model = layers.Conv2D(1, (1,1), activation='sigmoid')(up1)
     model = Model(inputs=inputs, outputs=model)
